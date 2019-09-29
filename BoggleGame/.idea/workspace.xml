@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="186f6bd5-404c-43fc-a864-2d5f646a9c4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../算法课/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Collison_Ball/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Collison_Ball/src/Ball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Collison_Ball/src/CollisionSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week2/Elementary_Sorts/Backets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week2/Elementary_Sorts/Intersection_of_two_sets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week2/MaxArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week2/MaxLinkedStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week2/StackQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week3/CountInversions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week3/LinkedMergedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week3/MergeSortedSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week4/BST/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week4/Inorder_traversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week4/PQ/MaxPQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week4/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week4/RandomPQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week4/Taxicab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week4/text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week5/redBlackTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week6/Cycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week6/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week6/Two_Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_2/Deque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_2/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_2/RandomizedQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_3/BruteCollinearPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_3/FastCollinearPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_3/LineSegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_3/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_4/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_4/Solver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_5/KdTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_5/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_5/PointSET.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_5/RectHV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_6/Outcast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_6/SAP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_6/WordNet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/UF/src/UF/UF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/排序/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/排序/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/排序/src/paixu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/排序/src/paixu/bbb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-dialog_conversation-Desktop_Qt_5_11_2_clang_64bit-Debug/.qmake.stash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-dialog_conversation-Desktop_Qt_5_11_2_clang_64bit-Debug/Form.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-dialog_conversation-Desktop_Qt_5_11_2_clang_64bit-Debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-dialog_conversation-Desktop_Qt_5_11_2_clang_64bit-Debug/MyWindow.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-dialog_conversation-Desktop_Qt_5_11_2_clang_64bit-Debug/dialog_conversation.app/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-dialog_conversation-Desktop_Qt_5_11_2_clang_64bit-Debug/dialog_conversation.app/Contents/MacOS/dialog_conversation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-dialog_conversation-Desktop_Qt_5_11_2_clang_64bit-Debug/dialog_conversation.app/Contents/PkgInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-dialog_conversation-Desktop_Qt_5_11_2_clang_64bit-Debug/dialog_conversation.app/Contents/Resources/empty.lproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-dialog_conversation-Desktop_Qt_5_11_2_clang_64bit-Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-dialog_conversation-Desktop_Qt_5_11_2_clang_64bit-Debug/moc_Form.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-dialog_conversation-Desktop_Qt_5_11_2_clang_64bit-Debug/moc_Form.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-dialog_conversation-Desktop_Qt_5_11_2_clang_64bit-Debug/moc_MyWindow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-dialog_conversation-Desktop_Qt_5_11_2_clang_64bit-Debug/moc_MyWindow.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-dialog_conversation-Desktop_Qt_5_11_2_clang_64bit-Debug/moc_predefs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-dialog_conversation-Desktop_Qt_5_11_2_clang_64bit-Debug/ui_Form.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-dialog_conversation-Desktop_Qt_5_11_2_clang_64bit-Debug/ui_MyWindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-first-Desktop_Qt_5_11_2_clang_64bit-Debug/.qmake.stash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-first-Desktop_Qt_5_11_2_clang_64bit-Debug/Form.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-first-Desktop_Qt_5_11_2_clang_64bit-Debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-first-Desktop_Qt_5_11_2_clang_64bit-Debug/MyWindow.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-first-Desktop_Qt_5_11_2_clang_64bit-Debug/first.app/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-first-Desktop_Qt_5_11_2_clang_64bit-Debug/first.app/Contents/MacOS/first" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-first-Desktop_Qt_5_11_2_clang_64bit-Debug/first.app/Contents/PkgInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-first-Desktop_Qt_5_11_2_clang_64bit-Debug/first.app/Contents/Resources/empty.lproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-first-Desktop_Qt_5_11_2_clang_64bit-Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-first-Desktop_Qt_5_11_2_clang_64bit-Debug/moc_Form.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-first-Desktop_Qt_5_11_2_clang_64bit-Debug/moc_Form.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-first-Desktop_Qt_5_11_2_clang_64bit-Debug/moc_MyWindow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-first-Desktop_Qt_5_11_2_clang_64bit-Debug/moc_MyWindow.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-first-Desktop_Qt_5_11_2_clang_64bit-Debug/moc_predefs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-first-Desktop_Qt_5_11_2_clang_64bit-Debug/qrc_images.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-first-Desktop_Qt_5_11_2_clang_64bit-Debug/qrc_images.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-first-Desktop_Qt_5_11_2_clang_64bit-Debug/ui_MyWindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/build-first-Desktop_Qt_5_11_2_clang_64bit-Debug/ui_form.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/dialog_conversation/Form.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/dialog_conversation/Form.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/dialog_conversation/Form.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/dialog_conversation/MyWindow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/dialog_conversation/MyWindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/dialog_conversation/MyWindow.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/dialog_conversation/dialog_conversation.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/dialog_conversation/dialog_conversation.pro.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/dialog_conversation/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/first/1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/first/2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/first/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/first/Form.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/first/Form.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/first/Form.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/first/MyWindow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/first/MyWindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/first/MyWindow.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/first/first.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/first/first.pro.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/first/images.qrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QT practice/first/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../数据结构/List.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../数据结构/List.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../数据结构/bisai.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../数据结构/main_list.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../数据结构/多项式链表实现.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../数据结构/链表.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../数据结构/顺序表.cpp" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BoggleGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="900" column="36" selection-start-line="900" selection-start-column="36" selection-end-line="900" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5268#5269#0" expanded="true" />
+                <element signature="e#5311#5312#0" expanded="true" />
+                <element signature="e#6243#7148#0" expanded="true" />
+                <element signature="e#7147#7148#0" expanded="true" />
+                <element signature="e#10312#10939#0" expanded="true" />
+                <element signature="e#10938#10939#0" expanded="true" />
+                <element signature="e#13963#14814#0" expanded="true" />
+                <element signature="e#14813#14814#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/Toolkit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="579" column="56" selection-start-line="579" selection-start-column="31" selection-end-line="579" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63500">
+              <caret line="2631" column="18" selection-start-line="2631" selection-start-column="18" selection-end-line="2631" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/event/KeyEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4225">
+              <caret line="197" column="28" selection-start-line="197" selection-start-column="28" selection-end-line="197" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BoggleSolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3350">
+              <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/BoggleSolver.java" />
+        <option value="$PROJECT_DIR$/src/BoggleGame.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BoggleGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BoggleGame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BoggleGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BoggleGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569732590534" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="BoggleGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BoggleGame" />
+      <module name="BoggleGame" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BoggleGame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="186f6bd5-404c-43fc-a864-2d5f646a9c4b" name="Default Changelist" comment="" />
+      <created>1569681087424</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569681087424</updated>
+      <workItem from="1569681088754" duration="136000" />
+      <workItem from="1569681325463" duration="9000" />
+      <workItem from="1569681339118" duration="1853000" />
+      <workItem from="1569684003512" duration="274000" />
+      <workItem from="1569684483751" duration="383000" />
+      <workItem from="1569696569996" duration="11524000" />
+      <workItem from="1569760865350" duration="4728000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18907000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.12446352" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2614458" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3297568" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297568" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/SwingUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13262">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/JList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="280" column="40" selection-start-line="280" selection-start-column="30" selection-end-line="280" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/Dimension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/event/ActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="39" column="95" selection-start-line="39" selection-start-column="95" selection-end-line="39" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/algs4.jar!/edu/princeton/cs/algs4/SET.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1539">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/JTextField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="420" column="21" selection-start-line="420" selection-start-column="21" selection-end-line="420" selection-end-column="21" />
+          <folding>
+            <element signature="e#7067#7068#0" expanded="true" />
+            <element signature="e#7108#7109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/JComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="1673" column="21" selection-start-line="1673" selection-start-column="21" selection-end-line="1673" selection-end-column="21" />
+          <folding>
+            <element signature="e#64550#64551#0" expanded="true" />
+            <element signature="e#64599#64600#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/EventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/event/MouseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="56" column="52" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/BorderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding>
+            <element signature="e#3134#3135#0" expanded="true" />
+            <element signature="e#3194#3195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63500">
+          <caret line="2631" column="18" selection-start-line="2631" selection-start-column="18" selection-end-line="2631" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/event/KeyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4225">
+          <caret line="197" column="28" selection-start-line="197" selection-start-column="28" selection-end-line="197" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BoggleSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3350">
+          <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/Toolkit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="579" column="56" selection-start-line="579" selection-start-column="31" selection-end-line="579" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BoggleGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="900" column="36" selection-start-line="900" selection-start-column="36" selection-end-line="900" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5268#5269#0" expanded="true" />
+            <element signature="e#5311#5312#0" expanded="true" />
+            <element signature="e#6243#7148#0" expanded="true" />
+            <element signature="e#7147#7148#0" expanded="true" />
+            <element signature="e#10312#10939#0" expanded="true" />
+            <element signature="e#10938#10939#0" expanded="true" />
+            <element signature="e#13963#14814#0" expanded="true" />
+            <element signature="e#14813#14814#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>stdlib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>BoggleGame</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>algs4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
