@@ -27,7 +27,7 @@ public class BoggleGame extends JFrame {
     private static final int GAME_TIME = 180;                 // 游戏时间终点
     private static final int SECONDS_PER_MINUTE = 60;         // 一分钟60秒
     private static final int FOUND_WORDS_DISPLAY_COUNT = 17;  // how many rows to display for the two side columns
-    private static final int ALL_WORDS_DISPLAY_COUNT   = 7;   // how many rows to display for the middle all-words list
+    private static final int ALL_WORDS_DISPLAY_COUNT   = 7;   // 一行（列）显示多少个，然后就换行（列）
 
     // 窗口尺寸
     private static final int DEF_HEIGHT = 550;
@@ -169,18 +169,23 @@ public class BoggleGame extends JFrame {
 
         // list of typed words
         foundWordsList = new JList();
-        foundWordsList.setPrototypeCellValue(MAX_WORD_SIZE);
-        foundWordsList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
-        foundWordsList.setListData(emptyList);
-        foundWordsList.setVisibleRowCount(FOUND_WORDS_DISPLAY_COUNT);
-        foundWordsList.setLayoutOrientation(JList.VERTICAL_WRAP);
+        foundWordsList.setPrototypeCellValue(MAX_WORD_SIZE);                        // 不清楚这个prototypecellvalue的意思，目前的理解就是凑字数，给定一个字符串安类似于这样的长度即可
+        foundWordsList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);       // 选择列表的选择模式，此处为单一选择，还有单一多个选择和多重选择
+        foundWordsList.setListData(emptyList);                                      // 给列表设置数据
+        foundWordsList.setVisibleRowCount(FOUND_WORDS_DISPLAY_COUNT);               // 设置显示行数，每一行17个，跟下面的成列方式有关
+        foundWordsList.setLayoutOrientation(JList.VERTICAL_WRAP);                   // 设置列表的显示方式，这里是垂直显示，就是陈列的方式不一样而已，根据需要将新元素放在新单元上面
+
         foundWordsList.setCellRenderer(new DefaultListCellRenderer() {
-            @Override
+            @Override                                                               // 这里关于这个函数还是不太懂，后面有时间整理一下
             public Component getListCellRendererComponent(JList list, Object value, int index, boolean isSelected, boolean cellHasFocus) {
                 Component comp = super.getListCellRendererComponent(list, value, index, false, false);
-                JComponent jc = (JComponent) comp;
+                JComponent jc = (JComponent) comp;                                  // JComponent 不同于 JPanel地方在于前者透明，后者不是透明的
                 String word = (String) value;
+
+                /*
+                实在是弄不清楚这一段存在的意义。
                 if (!inGame && inGame) {
+
                     if (foundWords.contains(word) && !opponentFoundWords.contains(word)) {
                         comp.setBackground(PLAYER_POINT_WORD);
                     }
@@ -188,34 +193,42 @@ public class BoggleGame extends JFrame {
                         comp.setBackground(NONPOINT_WORD);
                     }
                 }
+                */
                 comp.setForeground(Color.black);
                 return comp;
             }
         });
+
         JScrollPane foundWordsScrollPane = new JScrollPane(foundWordsList);
         foundWordsScrollPane.setPreferredSize(new Dimension(WORD_PANEL_WIDTH, WORD_PANEL_HEIGHT));
-        foundWordsScrollPane.setMinimumSize(foundWordsScrollPane.getPreferredSize());
+        foundWordsScrollPane.setMinimumSize(foundWordsScrollPane.getPreferredSize());                       // 设置最大最小尺寸都等同于它。
         foundWordsScrollPane.setMaximumSize(foundWordsScrollPane.getPreferredSize());
         JPanel scoreLabelPanel = new JPanel();
         scoreLabel = new JLabel("My Points:");
         scoreLabelPanel.add(scoreLabel);
         JPanel controlPanel = new JPanel();
 
-        // layout for the left panel, with controls and found word display
-        GroupLayout controlLayout = new GroupLayout(controlPanel);
-        controlPanel.setLayout(controlLayout);
-        controlLayout.setAutoCreateGaps(true);
-        controlLayout.setAutoCreateContainerGaps(true);
-        controlLayout.setHorizontalGroup(
+        // 这里摆放最左边的布局
+        GroupLayout controlLayout = new GroupLayout(controlPanel);                                         // 我知道这个地方可能看上去很扯，第一句绑定关联作用
+        controlPanel.setLayout(controlLayout);                                                             // 后面一句则是设置容器布局，就相当于链表设置前驱与后缀
+        controlLayout.setAutoCreateGaps(true);                                                             // 自动创建组件之间的间隙，也就是每一个lable之类的
+        controlLayout.setAutoCreateContainerGaps(true);                                                    // 自动创建容器与触到容器边框的组件之间的间隙
+
+                                                                                                           // 设置最左边的容器布局，但是这个是确定X轴上面的方向
+        controlLayout.setHorizontalGroup(                                                                  // 确定组件在X轴方向的位置
                 controlLayout.createSequentialGroup()
-                        .addGroup(controlLayout.createParallelGroup(GroupLayout.Alignment.CENTER)
+                                                                                                           // 四种枚举方式 CENTER 元素居中, BASELINE 元素沿其基线对齐
+                        .addGroup(controlLayout.createParallelGroup(GroupLayout.Alignment.CENTER)          // LEADING 元素向着原点对齐, TRAILING 元素应该向区域底端对齐
                                 .addComponent(timerPanel)
                                 .addComponent(entryField)
                                 .addComponent(foundWordsScrollPane)
                                 .addComponent(scoreLabelPanel))
         );
+                                                                                                           // 以下这个就是确定Y轴的方向了，二者是同一个东西，但是都必须需要
         controlLayout.setVerticalGroup(
-                controlLayout.createSequentialGroup()
+                controlLayout.createSequentialGroup()                                                      // 两个组件相对于彼此可能放置的组件的枚举
+                                                                                                           // INDENT 一个枚举值，指示被请求缩排的距离
+                                                                                                           // RELATED 两个组件视觉上相关，并且放置到同一个父容器里面，相反UNRELATED则不相关
                         .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED,        GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(timerPanel,           GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED,      GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE)
@@ -225,9 +238,9 @@ public class BoggleGame extends JFrame {
                         .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED,      GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE)
                         .addComponent(scoreLabelPanel,      GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED,        GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
+        );                                                                                                 // 总之这里得出结论，关于这个尺寸特别奇怪，需要去查清楚
 
-        // creates the board and the list that will show all the available words at the end of a game
+        // 游戏最中间的界面，包括棋盘以及下面的文本展示框
         bp = new BoardPanel();
         validWordsList = new JList();
         validWordsList.setVisible(true);
@@ -245,10 +258,12 @@ public class BoggleGame extends JFrame {
                         comp.setBackground(OPP_POINT_WORD);
                     }
                 }
+                // 个人理解的是这个表格里面的元素前色设置的是黑色，意思就是字体的颜色就是黑色。
                 comp.setForeground(Color.black);
                 return comp;
             }
         });
+
         JScrollPane validWordsScrollPane = new JScrollPane(validWordsList);
         validWordsScrollPane.setPreferredSize(new Dimension(300, 145));
         validWordsScrollPane.setMinimumSize(validWordsScrollPane.getPreferredSize());
@@ -281,7 +296,7 @@ public class BoggleGame extends JFrame {
                         .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED,        GroupLayout.DEFAULT_SIZE,   Short.MAX_VALUE)
         );
 
-        // Opponent game panel
+        // 电脑的文本展示框（敌人）
         JLabel opponentLabel = new JLabel("Opponent's Words:");
         JPanel opponentLabelPanel = new JPanel();
         opponentLabelPanel.add(opponentLabel);
@@ -294,11 +309,13 @@ public class BoggleGame extends JFrame {
         opponentFoundWordsList.setListData(emptyList);
         opponentFoundWordsList.setVisibleRowCount(FOUND_WORDS_DISPLAY_COUNT);
         opponentFoundWordsList.setLayoutOrientation(JList.VERTICAL_WRAP);
+
         opponentFoundWordsList.setCellRenderer(new DefaultListCellRenderer() {
             @Override
             public Component getListCellRendererComponent(JList list, Object value, int index, boolean isSelected, boolean cellHasFocus) {
                 Component comp = super.getListCellRendererComponent(list, value, index, false, false);
                 String word = (String) value;
+                /*
                 if (!inGame && inGame) {
                     if (!foundWords.contains(word) && opponentFoundWords.contains(word)) {
                         comp.setBackground(OPP_POINT_WORD);
@@ -307,6 +324,8 @@ public class BoggleGame extends JFrame {
                         comp.setBackground(NONPOINT_WORD);
                     }
                 }
+
+                 */
                 comp.setForeground(Color.black);
                 return comp;
             }
@@ -316,8 +335,10 @@ public class BoggleGame extends JFrame {
         opponentWordsScrollPane.setPreferredSize(new Dimension(WORD_PANEL_WIDTH, WORD_PANEL_HEIGHT));
         opponentWordsScrollPane.setMinimumSize(opponentWordsScrollPane.getPreferredSize());
         opponentWordsScrollPane.setMaximumSize(opponentWordsScrollPane.getPreferredSize());
+        // 其实完全没有弄懂spacingPanel这个部件在框架上面的意思
         JPanel spacingPanel = new JPanel();
         spacingPanel.setPreferredSize(new Dimension(WORD_PANEL_WIDTH, 22));
+
         JPanel opponentPanel = new JPanel();
         GroupLayout buttonsLayout = new GroupLayout(opponentPanel);
         opponentPanel.setLayout(buttonsLayout);
@@ -347,7 +368,14 @@ public class BoggleGame extends JFrame {
                         .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED,           GroupLayout.DEFAULT_SIZE,   Short.MAX_VALUE)
         );
 
-        // layout for the left and right panels 
+        /*
+            这个地方可以总结出相应布局的方式，就像是水平列举出或者垂直列举出部件，然后再一点点的添加实物进去。
+            然后另外一个方向则是控制好相应的gap
+        */
+
+
+        // 初始化整个面板容器，就是最开始的面板。
+        // 而下面的这个函数就是专门来获取这样的一个板子。
         Container content = getContentPane();
         GroupLayout layout = new GroupLayout(content);
         content.setLayout(layout);
@@ -371,6 +399,14 @@ public class BoggleGame extends JFrame {
                                 .addComponent(opponentPanel))
         );
 
+        /*
+            // 这个就是in这类里面包装的文件读入的类
+            // 注意下面的 第二行的第二个参数就是Charset 是用来在字节和Unicode字符之间的转换，这里的意思就是可以直接将字符进行转换。
+            FileInputStream fis = new FileInputStream(file);
+            scanner = new Scanner(new BufferedInputStream(fis), CHARSET_NAME);
+            scanner.useLocale(LOCALE);
+            但是自己上网查了一下，好像可以就直接这样读入，也是没有问题的。
+        */
         // all words in shakespeare
         In in1 = new In(new File("dictionary-shakespeare.txt"));
         shakespeareDictionary = new SET<String>();
@@ -402,13 +438,17 @@ public class BoggleGame extends JFrame {
         // create the Boggle solver with the given dictionary
         solver = new BoggleSolver(dictionary);
 
+        // 游戏线程的开始
         newGame();
+        // 这个函数就是调整整个框架值，使其正好能够容纳全部的组件。
         this.pack();
     }
 
     /**
      * Start a new game, can be called via the menu selection, the button, or CMD+N (CRTL+N).
      */
+
+    // 这个函数必须全部初始化，每一个细节全部去初始化，因为很有可能还有其他地方会对这个地方进行调用
     private void newGame() {
         if (BOARD_ROWS == 4 && BOARD_COLS == 4) {
             board = new BoggleBoard();
@@ -417,12 +457,15 @@ public class BoggleGame extends JFrame {
             board = new BoggleBoard(BOARD_ROWS, BOARD_COLS);
         }
         clock.setForeground(Color.BLACK);
+        // 相当于一开始就获得聚焦
         entryField.requestFocus();
         inGame = true;
         points = 0;
         scoreLabel.setText("Current Points:" + points);
+        // 这里与setEditable()  一个是只能编辑或者不能编辑 另外一个就是直接无效了，比如连鼠标上面都不能够操作
         entryField.setEnabled(true);
 
+        // LinkedHashSet 与 HashSet的区别就在于 前者按照进入顺序存储，后者则是按照Hashcode顺序存入
         foundWords = new LinkedHashSet<String>();
 
         // set display of word lists to be empty
@@ -481,9 +524,13 @@ public class BoggleGame extends JFrame {
             oppCurScore += scoreWord(word);
 
         oppScoreLabel.setText("Opponent's Points: " + oppCurScore);
+        // 设置时间初始化的方式了，首先先要结束上一个timer的时间参数
         timer.cancel();
+        // 初始化游戏时间
         elapsedTime = -1;
+        // 设置化新的计时器
         timer = new Timer();
+        // 给计时器设置相应的时间，第三个参数是等待1000ms 也就是1s之后再次运行
         timer.schedule(new Countdown(), 0, 1000);
 
     }
@@ -499,10 +546,10 @@ public class BoggleGame extends JFrame {
         entryField.setText("");
         entryField.setEnabled(false);
 
-        // display list of all valid words
+        // 呈现出上面所出现的值,这里需要注意的是toArray这个方法，如果不带参数的话则是Object这个类型。
         validWordsList.setListData(validWords.toArray());
 
-        // highlight found words by specifying indices of found words
+        // 找出相同的值，并且给出相应的坐标
         int[] indices = new int[foundWords.size()];
         int i = 0;
         int n = 0;
@@ -511,14 +558,16 @@ public class BoggleGame extends JFrame {
                 indices[i++] = n;
             n++;
         }
+        // 设置清楚一开始选中的词。
         validWordsList.setSelectedIndices(indices);
         //validWordsList.setEnabled(false);
 
         inGame = false;
 
-        // compute score, discounting words that both players found
+        // 最后算出计算的总分数
         int playerScore = points;
         int opponentScore = oppCurScore;
+        // 对于不重复的单词，则是很好的一个计数方法。
         for (String s : foundWords) {
             if (opponentFoundWords.contains(s)) {
                 playerScore   -= scoreWord(s);
@@ -526,7 +575,8 @@ public class BoggleGame extends JFrame {
             }
         }
 
-        // strike out words in user's list that opponent found
+        // 这里是下划线的应用，需要注意的就是 Java中 html的应用。
+        // String[] list1 = (String[]) foundWords.toArray(new String[0]);
         Object[] list1 = foundWords.toArray();
         for (int j = 0; j < list1.length; j++) {
             if (opponentFoundWords.contains(list1[j])) {
@@ -556,6 +606,7 @@ public class BoggleGame extends JFrame {
     /**
      * Timer that runs to keep track of the game time.
      */
+    // 由于这个就是多线程，所以要随时保证更新。
     private class Countdown extends TimerTask {
         @Override
         public void run() {
@@ -841,7 +892,9 @@ public class BoggleGame extends JFrame {
 
             foundWord = false;
             s = s.toUpperCase();
-            //记得在用输入框写字母，显示在界面上的时候涉及一个匹配过程，然后这个匹配过程涉及到很多更变与交替。
+
+            // 记得在用输入框写字母，显示在界面上的时候涉及一个匹配过程，然后这个匹配过程涉及到很多更变与交替。
+            // 这个地方的循环设计各个方面，意思就在于对每一个位置进行深度优先搜索，寻找能够匹配的位置。
             for (int i = 0; i < cubes.length; i++) {
                 if (s.startsWith(cubes[i].getText().toUpperCase())) {
                     dfs(s, 0, 0, i / BOARD_COLS, i % BOARD_COLS);
@@ -873,7 +926,7 @@ public class BoggleGame extends JFrame {
                 foundWord = true;
                 return;
             }
-            // can't use a cell more than once
+            // 这里就是如果有重复的，可以直接去掉这种情况,正好对应到下面坐标变换不变的那种情况。
             for (int n = 0; n < path.length; n++) {
                 if (path[n] == (i*BOARD_COLS)+j) return;
             }
@@ -905,28 +958,35 @@ public class BoggleGame extends JFrame {
                 for (int jj = -1; jj <= 1; jj++)
                     if (!foundWord) dfs(s, curChar+1, pathIndex+1, i + ii, j + jj);
 
+            // 这里就是对当前位置的返回，直接将当前位置置位-1，意思就是，上面所有位置的遍历完之后，当前位置就是最末尾的位置了。
             if (!foundWord) path[curChar] = -1;
         }
     }
 
     /**
-     * Create the menu bar.
+     *  这里的设置就是菜单栏了，
      */
     private void makeMenuBar() {
         menuBar = new JMenuBar();
         gameMenu = new JMenu("Game");
+        // 设置键盘助记符，这个后面再去弄清楚是什么意思。
         gameMenu.setMnemonic(KeyEvent.VK_G);
+        // 这里就是对某个部件的一个简介，后面要弄清楚，这个究竟显示在什么地方
         gameMenu.getAccessibleContext().setAccessibleDescription("This menu contains game options");
         menuBar.add(gameMenu);
         JMenuItem newGameMenuItem = new JMenuItem("New...", KeyEvent.VK_N);
+        // 这个就是确认菜单栏那一块的键盘快捷键确认，control 进行加速键
         newGameMenuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_N, Toolkit.getDefaultToolkit().getMenuShortcutKeyMask()));
         newGameMenuItem.getAccessibleContext().setAccessibleDescription("Starts a new game");
+        // 这里就相当于信号槽被触发之后的操作，前面都是关联怎么触发这个操作，所有操作都必须经过这个动作。
         newGameMenuItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent arg0) {
                 newGame();
             }
         });
+
+
         JMenuItem endGameMenuItem = new JMenuItem("End Game", KeyEvent.VK_E);
         endGameMenuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_E, Toolkit.getDefaultToolkit().getMenuShortcutKeyMask()));
         endGameMenuItem.getAccessibleContext().setAccessibleDescription("Ends the current game");
@@ -938,13 +998,17 @@ public class BoggleGame extends JFrame {
         });
         gameMenu.add(newGameMenuItem);
         gameMenu.add(endGameMenuItem);
+        // 菜单栏上面的分割建
         gameMenu.addSeparator();
+
         ButtonGroup difficultyGroup = new ButtonGroup();
         difficultySelection = new JRadioButtonMenuItem[NUMBER_OF_LEVELS];
         for (int i = 0; i < NUMBER_OF_LEVELS; i++) {
-            difficultySelection[i]  = new JRadioButtonMenuItem(LEVEL_DESCRIPTION[i % LEVEL_DESCRIPTION.length]); // mod as a check against mismatched sizes
+            difficultySelection[i]  = new JRadioButtonMenuItem(LEVEL_DESCRIPTION[i]); // mod as a check against mismatched sizes
+            // 设置一开始的选中状态
             if (i == 0) difficultySelection[i].setSelected(true);
-            difficultySelection[i].setActionCommand(LEVEL_DESCRIPTION[i % LEVEL_DESCRIPTION.length]);
+            // 给每一个按钮写一个命令的获取，如果写完之后按下就可以直接获取命令，从而少写很多if 与 else
+            difficultySelection[i].setActionCommand(LEVEL_DESCRIPTION[i]);
             difficultySelection[i].addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent ae) {

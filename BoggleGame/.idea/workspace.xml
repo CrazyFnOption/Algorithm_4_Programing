@@ -2,12 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="186f6bd5-404c-43fc-a864-2d5f646a9c4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BoggleGame.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary-algs4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary-common.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary-nursery.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary-shakespeare.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary-yawl.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BoggleGame/BoggleBoard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BoggleGame/BoggleGame$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BoggleGame/BoggleGame$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BoggleGame/BoggleGame$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BoggleGame/BoggleGame$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BoggleGame/BoggleGame$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BoggleGame/BoggleGame$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BoggleGame/BoggleGame$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BoggleGame/BoggleGame$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BoggleGame/BoggleGame$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BoggleGame/BoggleGame$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BoggleGame/BoggleGame$BoardPanel$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BoggleGame/BoggleGame$BoardPanel$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BoggleGame/BoggleGame$BoardPanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BoggleGame/BoggleGame$Countdown.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BoggleGame/BoggleGame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BoggleGame/BoggleSolver$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BoggleGame/BoggleSolver$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/BoggleGame/BoggleSolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BoggleBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BoggleGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BoggleSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Collison_Ball/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Collison_Ball/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Collison_Ball/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/Collison_Ball/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Collison_Ball/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Collison_Ball/Collison_Ball.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Collison_Ball/out/production/Collison_Ball/Ball.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Collison_Ball/out/production/Collison_Ball/CollisionSystem$Collison_Event.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Collison_Ball/out/production/Collison_Ball/CollisionSystem.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/Collison_Ball/src/Ball.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/Collison_Ball/src/CollisionSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/Interview_Question.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/Interview_Question_Week2/Elementary_Sorts/Backets$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/Interview_Question_Week2/Elementary_Sorts/Backets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/Interview_Question_Week2/Elementary_Sorts/Ball.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/Interview_Question_Week2/Elementary_Sorts/Intersection_of_two_sets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/Interview_Question_Week2/MaxArrayStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/Interview_Question_Week2/MaxLinkedStack$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/Interview_Question_Week2/MaxLinkedStack$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/Interview_Question_Week2/MaxLinkedStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/Interview_Question_Week2/StackQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/Interview_Question_Week3/MergeSortedSubArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/Interview_Question_Week4/BST/BST$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/Interview_Question_Week4/BST/BST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/Interview_Question_Week4/PQ/MaxPQ$heapIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/Interview_Question_Week4/PQ/MaxPQ.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/Interview_Question_Week4/PriorityQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/Interview_Question_Week4/RandomPQ.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/Interview_Question_Week6/Cycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/Interview_Question_Week6/Graph.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/_3_sum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/text$MediaHeap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/text$Taxicab.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/out/production/Interview_Question/text.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week1/Bitonic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week1/_3_sum.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week2/Elementary_Sorts/Backets.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week2/Elementary_Sorts/Intersection_of_two_sets.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week2/MaxArrayStack.java" afterDir="false" />
@@ -27,7 +103,45 @@
       <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week6/Cycle.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week6/Graph.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/Interview_Question/src/Interview_Question_Week6/Two_Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/Programming_Assignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_1/Percolation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_1/PercolationStats.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_2/Deque$DequeIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_2/Deque$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_2/Deque.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_2/Permutation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_2/RandomizedQueue$RandomIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_2/RandomizedQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_3/BruteCollinearPoints.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_3/FastCollinearPoints.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_3/LineSegment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_3/Point$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_3/Point$SlopeOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_3/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_4/Board.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_4/Solver$BoardNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_4/Solver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_5/KdTree$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_5/KdTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_5/Point2D$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_5/Point2D$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_5/Point2D.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_5/PointSET.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_5/RectHV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_6/Outcast.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_6/SAP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_6/WordNet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_7/SeamCarver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_7/seam.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_8/4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/out/production/Programming_Assignment/Programming_Assignment_8/BaseballElimination.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_1/Percolation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_1/PercolationStats.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_2/Deque.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_2/Permutation.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_2/RandomizedQueue.java" afterDir="false" />
@@ -44,11 +158,37 @@
       <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_6/Outcast.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_6/SAP.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_6/WordNet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_7/SeamCarver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_7/seam.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_8/4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_8/BaseballElimination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_8/baseball.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_9/BoggleBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_9/BoggleSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/Programming_Assignment/src/Programming_Assignment_9/boggle.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/UF/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/UF/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/UF/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/UF/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/UF/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/UF/UF.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/UF/out/production/UF/UF/UF.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/UF/src/UF/UF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/排序/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/排序/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/排序/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/排序/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/排序/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/排序/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/排序/hello.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/排序/hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/排序/out/production/排序/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/排序/out/production/排序/paixu/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/排序/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/排序/src/paixu/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../算法课/排序/src/paixu/bbb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法课/排序/排序.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../QT practice/build-dialog_conversation-Desktop_Qt_5_11_2_clang_64bit-Debug/.qmake.stash" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../QT practice/build-dialog_conversation-Desktop_Qt_5_11_2_clang_64bit-Debug/Form.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../QT practice/build-dialog_conversation-Desktop_Qt_5_11_2_clang_64bit-Debug/Makefile" beforeDir="false" />
@@ -113,7 +253,6 @@
       <change beforePath="$PROJECT_DIR$/../../数据结构/链表.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../数据结构/顺序表.cpp" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,127 +273,32 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BoggleGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="900" column="36" selection-start-line="900" selection-start-column="36" selection-end-line="900" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5268#5269#0" expanded="true" />
-                <element signature="e#5311#5312#0" expanded="true" />
-                <element signature="e#6243#7148#0" expanded="true" />
-                <element signature="e#7147#7148#0" expanded="true" />
-                <element signature="e#10312#10939#0" expanded="true" />
-                <element signature="e#10938#10939#0" expanded="true" />
-                <element signature="e#13963#14814#0" expanded="true" />
-                <element signature="e#14813#14814#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/Toolkit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="579" column="56" selection-start-line="579" selection-start-column="31" selection-end-line="579" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63500">
-              <caret line="2631" column="18" selection-start-line="2631" selection-start-column="18" selection-end-line="2631" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/event/KeyEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4225">
-              <caret line="197" column="28" selection-start-line="197" selection-start-column="28" selection-end-line="197" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BoggleSolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3350">
-              <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/BoggleSolver.java" />
-        <option value="$PROJECT_DIR$/src/BoggleGame.java" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
+  <component name="ProjectId" id="1RXPrFv9Y4SzrFZRp2kXofqObQg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BoggleGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BoggleGame" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BoggleGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BoggleGame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569732590534" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569810409890" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -262,6 +306,14 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -306,187 +358,32 @@
       <workItem from="1569684483751" duration="383000" />
       <workItem from="1569696569996" duration="11524000" />
       <workItem from="1569760865350" duration="4728000" />
+      <workItem from="1569808798899" duration="1453000" />
+      <workItem from="1569810671140" duration="27000" />
+      <workItem from="1569810702543" duration="15455000" />
+      <workItem from="1569988842091" duration="11450000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18907000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.12446352" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2614458" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.3297568" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.3297568" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/SwingUtilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13262">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/JList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="280" column="40" selection-start-line="280" selection-start-column="30" selection-end-line="280" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/Dimension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/event/ActionListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="39" column="95" selection-start-line="39" selection-start-column="95" selection-end-line="39" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/algs4.jar!/edu/princeton/cs/algs4/SET.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1539">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/JTextField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="420" column="21" selection-start-line="420" selection-start-column="21" selection-end-line="420" selection-end-column="21" />
-          <folding>
-            <element signature="e#7067#7068#0" expanded="true" />
-            <element signature="e#7108#7109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/JComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="1673" column="21" selection-start-line="1673" selection-start-column="21" selection-end-line="1673" selection-end-column="21" />
-          <folding>
-            <element signature="e#64550#64551#0" expanded="true" />
-            <element signature="e#64599#64600#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/EventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/event/MouseListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="56" column="52" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/BorderFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-          <folding>
-            <element signature="e#3134#3135#0" expanded="true" />
-            <element signature="e#3194#3195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63500">
-          <caret line="2631" column="18" selection-start-line="2631" selection-start-column="18" selection-end-line="2631" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/event/KeyEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4225">
-          <caret line="197" column="28" selection-start-line="197" selection-start-column="28" selection-end-line="197" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoggleSolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3350">
-          <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/Toolkit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="579" column="56" selection-start-line="579" selection-start-column="31" selection-end-line="579" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoggleGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="900" column="36" selection-start-line="900" selection-start-column="36" selection-end-line="900" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5268#5269#0" expanded="true" />
-            <element signature="e#5311#5312#0" expanded="true" />
-            <element signature="e#6243#7148#0" expanded="true" />
-            <element signature="e#7147#7148#0" expanded="true" />
-            <element signature="e#10312#10939#0" expanded="true" />
-            <element signature="e#10938#10939#0" expanded="true" />
-            <element signature="e#13963#14814#0" expanded="true" />
-            <element signature="e#14813#14814#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
