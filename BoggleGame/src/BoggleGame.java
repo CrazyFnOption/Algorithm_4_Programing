@@ -158,7 +158,6 @@ public class BoggleGame extends JFrame {
             public void keyPressed(KeyEvent e) { }
             @Override
             public void keyReleased(KeyEvent e) {
-                // 这里之所以再建立一个文本输入框的原因就是让，上面的显式不要快速呈现在界面上面的选择框。
                 JTextField txtSrc = (JTextField) e.getSource();
                 String text = txtSrc.getText().toUpperCase();
                 bp.matchWord(text);
@@ -169,7 +168,7 @@ public class BoggleGame extends JFrame {
 
         // list of typed words
         foundWordsList = new JList();
-        foundWordsList.setPrototypeCellValue(MAX_WORD_SIZE);                        // 不清楚这个prototypecellvalue的意思，目前的理解就是凑字数，给定一个字符串安类似于这样的长度即可
+        //foundWordsList.setPrototypeCellValue(MAX_WORD_SIZE);                        // 不清楚这个prototypecellvalue的意思，目前的理解就是凑字数，给定一个字符串安类似于这样的长度即可
         foundWordsList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);       // 选择列表的选择模式，此处为单一选择，还有单一多个选择和多重选择
         foundWordsList.setListData(emptyList);                                      // 给列表设置数据
         foundWordsList.setVisibleRowCount(FOUND_WORDS_DISPLAY_COUNT);               // 设置显示行数，每一行17个，跟下面的成列方式有关
@@ -214,31 +213,31 @@ public class BoggleGame extends JFrame {
         controlLayout.setAutoCreateGaps(true);                                                             // 自动创建组件之间的间隙，也就是每一个lable之类的
         controlLayout.setAutoCreateContainerGaps(true);                                                    // 自动创建容器与触到容器边框的组件之间的间隙
 
-                                                                                                           // 设置最左边的容器布局，但是这个是确定X轴上面的方向
+        // 设置最左边的容器布局，但是这个是确定X轴上面的方向
         controlLayout.setHorizontalGroup(                                                                  // 确定组件在X轴方向的位置
                 controlLayout.createSequentialGroup()
-                                                                                                           // 四种枚举方式 CENTER 元素居中, BASELINE 元素沿其基线对齐
+                        // 四种枚举方式 CENTER 元素居中, BASELINE 元素沿其基线对齐
                         .addGroup(controlLayout.createParallelGroup(GroupLayout.Alignment.CENTER)          // LEADING 元素向着原点对齐, TRAILING 元素应该向区域底端对齐
                                 .addComponent(timerPanel)
                                 .addComponent(entryField)
                                 .addComponent(foundWordsScrollPane)
                                 .addComponent(scoreLabelPanel))
         );
-                                                                                                           // 以下这个就是确定Y轴的方向了，二者是同一个东西，但是都必须需要
+        // 以下这个就是确定Y轴的方向了，二者是同一个东西，但是都必须需要
         controlLayout.setVerticalGroup(
                 controlLayout.createSequentialGroup()                                                      // 两个组件相对于彼此可能放置的组件的枚举
-                                                                                                           // INDENT 一个枚举值，指示被请求缩排的距离
-                                                                                                           // RELATED 两个组件视觉上相关，并且放置到同一个父容器里面，相反UNRELATED则不相关
+                        // INDENT 一个枚举值，指示被请求缩排的距离
+                        // RELATED 两个组件视觉上相关，并且放置到同一个父容器里面，相反UNRELATED则不相关
                         .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED,        GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(timerPanel,           GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                        .addComponent(timerPanel)
                         .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED,      GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE)
-                        .addComponent(entryField,           GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE)
+                        .addComponent(entryField)
                         .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED,        GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE)
-                        .addComponent(foundWordsScrollPane, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                        .addComponent(foundWordsScrollPane)
                         .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED,      GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE)
-                        .addComponent(scoreLabelPanel,      GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                        .addComponent(scoreLabelPanel)
                         .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED,        GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );                                                                                                 // 总之这里得出结论，关于这个尺寸特别奇怪，需要去查清楚
+        );                                                                                        // 总之这里得出结论，关于这个尺寸特别奇怪，需要去查清楚
 
         // 游戏最中间的界面，包括棋盘以及下面的文本展示框
         bp = new BoardPanel();
@@ -288,11 +287,11 @@ public class BoggleGame extends JFrame {
         gameLayout.setVerticalGroup(
                 gameLayout.createSequentialGroup()
                         .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED,        GroupLayout.DEFAULT_SIZE,   Short.MAX_VALUE)
-                        .addComponent(bp,                   GroupLayout.PREFERRED_SIZE, GroupLayout.PREFERRED_SIZE, GroupLayout.PREFERRED_SIZE)
+                        .addComponent(bp)
                         .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED,      GroupLayout.DEFAULT_SIZE,   GroupLayout.DEFAULT_SIZE)
-                        .addComponent(validWordsScrollPane, GroupLayout.PREFERRED_SIZE, GroupLayout.PREFERRED_SIZE, GroupLayout.PREFERRED_SIZE)
+                        .addComponent(validWordsScrollPane)
                         .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED,      GroupLayout.DEFAULT_SIZE,   GroupLayout.DEFAULT_SIZE)
-                        .addComponent(possiblePointsPanel,  GroupLayout.PREFERRED_SIZE, GroupLayout.PREFERRED_SIZE, GroupLayout.PREFERRED_SIZE)
+                        .addComponent(possiblePointsPanel)
                         .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED,        GroupLayout.DEFAULT_SIZE,   Short.MAX_VALUE)
         );
 
@@ -356,13 +355,13 @@ public class BoggleGame extends JFrame {
         buttonsLayout.setVerticalGroup(
                 buttonsLayout.createSequentialGroup()
                         .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED,           GroupLayout.DEFAULT_SIZE,   Short.MAX_VALUE)
-                        .addComponent(spacingPanel,            GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE,   GroupLayout.DEFAULT_SIZE)
+                        .addComponent(spacingPanel)
                         .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED,         GroupLayout.DEFAULT_SIZE,   GroupLayout.DEFAULT_SIZE)
-                        .addComponent(opponentLabelPanel,      GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE,   GroupLayout.DEFAULT_SIZE)
+                        .addComponent(opponentLabelPanel)
                         .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED,         GroupLayout.DEFAULT_SIZE,   GroupLayout.DEFAULT_SIZE)
-                        .addComponent(opponentWordsScrollPane, GroupLayout.PREFERRED_SIZE, GroupLayout.PREFERRED_SIZE, GroupLayout.PREFERRED_SIZE)
+                        .addComponent(opponentWordsScrollPane)
                         .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED,         GroupLayout.DEFAULT_SIZE,   GroupLayout.DEFAULT_SIZE)
-                        .addComponent(oppScoreLabelPanel,      GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE,   GroupLayout.DEFAULT_SIZE)
+                        .addComponent(oppScoreLabelPanel)
                         //.addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED,         GroupLayout.DEFAULT_SIZE,   GroupLayout.DEFAULT_SIZE)
                         //.addComponent(winnerLabel,             GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE,   GroupLayout.DEFAULT_SIZE)
                         .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED,           GroupLayout.DEFAULT_SIZE,   Short.MAX_VALUE)
@@ -384,11 +383,11 @@ public class BoggleGame extends JFrame {
         layout.setHorizontalGroup(
                 layout.createSequentialGroup()
                         .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(controlPanel,    GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                        .addComponent(controlPanel)
                         .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE)
-                        .addComponent(gamePanel,       GroupLayout.DEFAULT_SIZE,   GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                        .addComponent(gamePanel)
                         .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE)
-                        .addComponent(opponentPanel,   GroupLayout.DEFAULT_SIZE,   GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                        .addComponent(opponentPanel)
                         .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
@@ -679,7 +678,7 @@ public class BoggleGame extends JFrame {
     /**
      * Score a word based off typical Boggle scoring.
      * @param s Word to score
-     * @return Score of the word passed in 
+     * @return Score of the word passed in
      */
     private int scoreWord(String s) {
         int pointValue;
@@ -959,7 +958,8 @@ public class BoggleGame extends JFrame {
                     if (!foundWord) dfs(s, curChar+1, pathIndex+1, i + ii, j + jj);
 
             // 这里就是对当前位置的返回，直接将当前位置置位-1，意思就是，上面所有位置的遍历完之后，当前位置就是最末尾的位置了。
-            if (!foundWord) path[curChar] = -1;
+            // 其实这里写什么都一样，因为结果都是没有找到
+            if (!foundWord) path[pathIndex] = -1;
         }
     }
 
